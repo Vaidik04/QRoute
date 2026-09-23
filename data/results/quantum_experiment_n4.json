@@ -1,0 +1,28 @@
+{
+  "n_customers": 4,
+  "seed": 42,
+  "n_qubo_variables": 16,
+  "brute_force": {
+    "energy": -31.84274654783421,
+    "permutation": [],
+    "feasible": false,
+    "runtime_ms": 50.57
+  },
+  "qaoa": {
+    "algorithm": "qaoa_statevector",
+    "energy": -15.518172989546962,
+    "permutation": [],
+    "feasible": false,
+    "runtime_ms": 1593.91,
+    "n_qubits": 16,
+    "n_layers": 2,
+    "approximation_ratio": 0.8256,
+    "ground_state_fidelity": 0.0001
+  },
+  "adaptive_d_qpso": {
+    "objective": 118.2309,
+    "distance_km": 106.2586,
+    "status": "FEASIBLE",
+    "runtime_ms": 82.17
+  }
+}

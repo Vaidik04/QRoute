@@ -1,0 +1,457 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "algorithm": "adaptive_d_qpso",
+    "status": "FEASIBLE",
+    "total_distance_km": 67.93,
+    "total_time_min": 215.04,
+    "objective_value": 150.7683
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "type": "depot",
+        "name": "Central Depot",
+        "marker-color": "#1E293B",
+        "marker-symbol": "warehouse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.26688587440624356,
+          -0.3800797984161112
+        ]
+      },
+      "properties": {
+        "type": "customer",
+        "customer_id": 1,
+        "marker-color": "#475569",
+        "demand": 17.147524070359385,
+        "tw_open": 0.0,
+        "tw_close": Infinity
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4795981318367823,
+          -0.7419920531201247
+        ]
+      },
+      "properties": {
+        "type": "customer",
+        "customer_id": 0,
+        "marker-color": "#475569",
+        "demand": 18.114638932151767,
+        "tw_open": 0.0,
+        "tw_close": Infinity
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6007206889892238,
+          0.5300370445067631
+        ]
+      },
+      "properties": {
+        "type": "customer",
+        "customer_id": 4,
+        "marker-color": "#475569",
+        "demand": 16.774503201138316,
+        "tw_open": 0.0,
+        "tw_close": Infinity
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.167790414239688,
+          2.932565114191978
+        ]
+      },
+      "properties": {
+        "type": "customer",
+        "customer_id": 13,
+        "marker-color": "#475569",
+        "demand": 16.866651432213672,
+        "tw_open": 0.0,
+        "tw_close": Infinity
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2809412326125735,
+          4.352921761518654
+        ]
+      },
+      "properties": {
+        "type": "customer",
+        "customer_id": 8,
+        "marker-color": "#475569",
+        "demand": 9.692124654011788,
+        "tw_open": 0.0,
+        "tw_close": Infinity
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.680656607814128,
+          3.1215610758781964
+        ]
+      },
+      "properties": {
+        "type": "customer",
+        "customer_id": 12,
+        "marker-color": "#475569",
+        "demand": 8.5306266417021,
+        "tw_open": 0.0,
+        "tw_close": Infinity
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.939388671620885,
+          0.10669898743140166
+        ]
+      },
+      "properties": {
+        "type": "customer",
+        "customer_id": 2,
+        "marker-color": "#475569",
+        "demand": 19.023533184648024,
+        "tw_open": 0.0,
+        "tw_close": Infinity
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3130840854996195,
+          -1.5313867101035126
+        ]
+      },
+      "properties": {
+        "type": "customer",
+        "customer_id": 14,
+        "marker-color": "#475569",
+        "demand": 10.71933464083483,
+        "tw_open": 0.0,
+        "tw_close": Infinity
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7387135948218733,
+          -2.656163911081383
+        ]
+      },
+      "properties": {
+        "type": "customer",
+        "customer_id": 5,
+        "marker-color": "#475569",
+        "demand": 9.261849438026234,
+        "tw_open": 0.0,
+        "tw_close": Infinity
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.834651623716018,
+          -4.455633694201788
+        ]
+      },
+      "properties": {
+        "type": "customer",
+        "customer_id": 6,
+        "marker-color": "#475569",
+        "demand": 15.773986043232728,
+        "tw_open": 0.0,
+        "tw_close": Infinity
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.187420069113123,
+          -7.880754853644107
+        ]
+      },
+      "properties": {
+        "type": "customer",
+        "customer_id": 9,
+        "marker-color": "#475569",
+        "demand": 17.396858099957356,
+        "tw_open": 0.0,
+        "tw_close": Infinity
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.20707620459043,
+          -14.66028561102582
+        ]
+      },
+      "properties": {
+        "type": "customer",
+        "customer_id": 10,
+        "marker-color": "#475569",
+        "demand": 8.530033114790797,
+        "tw_open": 0.0,
+        "tw_close": Infinity
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.04987051141051535,
+          -7.954886364123699
+        ]
+      },
+      "properties": {
+        "type": "customer",
+        "customer_id": 7,
+        "marker-color": "#475569",
+        "demand": 12.927410817010772,
+        "tw_open": 0.0,
+        "tw_close": Infinity
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.37822908076654527,
+          -4.5366462314415115
+        ]
+      },
+      "properties": {
+        "type": "customer",
+        "customer_id": 3,
+        "marker-color": "#475569",
+        "demand": 14.061130493544464,
+        "tw_open": 0.0,
+        "tw_close": Infinity
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.853307607778131,
+          -3.680355887080487
+        ]
+      },
+      "properties": {
+        "type": "customer",
+        "customer_id": 11,
+        "marker-color": "#475569",
+        "demand": 16.0688717150178,
+        "tw_open": 0.0,
+        "tw_close": Infinity
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.26688587440624356,
+            -0.3800797984161112
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "properties": {
+        "type": "route",
+        "vehicle_id": 0,
+        "stops_count": 1,
+        "sequence": [
+          0,
+          2,
+          0
+        ],
+        "stroke": "#3B82F6",
+        "stroke-width": 3.5,
+        "stroke-opacity": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -1.4795981318367823,
+            -0.7419920531201247
+          ],
+          [
+            -1.6007206889892238,
+            0.5300370445067631
+          ],
+          [
+            -2.167790414239688,
+            2.932565114191978
+          ],
+          [
+            -1.2809412326125735,
+            4.352921761518654
+          ],
+          [
+            5.680656607814128,
+            3.1215610758781964
+          ],
+          [
+            2.939388671620885,
+            0.10669898743140166
+          ],
+          [
+            1.3130840854996195,
+            -1.5313867101035126
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "properties": {
+        "type": "route",
+        "vehicle_id": 1,
+        "stops_count": 7,
+        "sequence": [
+          0,
+          1,
+          5,
+          14,
+          9,
+          13,
+          3,
+          15,
+          0
+        ],
+        "stroke": "#10B981",
+        "stroke-width": 3.5,
+        "stroke-opacity": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.7387135948218733,
+            -2.656163911081383
+          ],
+          [
+            2.834651623716018,
+            -4.455633694201788
+          ],
+          [
+            6.187420069113123,
+            -7.880754853644107
+          ],
+          [
+            10.20707620459043,
+            -14.66028561102582
+          ],
+          [
+            0.04987051141051535,
+            -7.954886364123699
+          ],
+          [
+            -0.37822908076654527,
+            -4.5366462314415115
+          ],
+          [
+            -4.853307607778131,
+            -3.680355887080487
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "properties": {
+        "type": "route",
+        "vehicle_id": 2,
+        "stops_count": 7,
+        "sequence": [
+          0,
+          6,
+          7,
+          10,
+          11,
+          8,
+          4,
+          12,
+          0
+        ],
+        "stroke": "#F59E0B",
+        "stroke-width": 3.5,
+        "stroke-opacity": 0.85
+      }
+    }
+  ]
+}
