@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    container_name: qtransit_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://qtransit:qtransit123@postgres:5432/qtransit_db
+      - REDIS_URL=redis://redis:6379/0
+      - ENV=production
+      - DEBUG=False
+    depends_on:
+      - postgres
+      - redis
+    restart: always
+
+  postgres:
+    image: postgis/postgis:15-3.3
+    container_name: qtransit_postgres
+    environment:
+      POSTGRES_USER: qtransit
+      POSTGRES_PASSWORD: qtransit123
+      POSTGRES_DB: qtransit_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    container_name: qtransit_redis
+    ports:
+      - "6379:6379"
+
+volumes:
+  pgdata:
